@@ -84,6 +84,14 @@ ul{
 p{
     text-align: justify;
 }
+ /* Footer */
+ #footer{
+    bottom: 0;
+    position: sticky;
+    padding: 20px;
+    background-color: darkgrey;
+    text-align: right;
+}
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
     #main{

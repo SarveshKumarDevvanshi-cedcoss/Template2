@@ -32,7 +32,7 @@ ul{
     color: #ffffff;
 }
 #navbar li:hover{
-    background-color: darkgrey;
+    background-color: forestgreen;
 }
 .active{
     background-color: forestgreen;
@@ -74,10 +74,10 @@ ul{
     float: left;
 }
 #sidecontent{
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px 50vh 10px;
     width: 33%;
     float: right;
-    height: 100vh;
+    
     background-color: darkgrey;
     
 }

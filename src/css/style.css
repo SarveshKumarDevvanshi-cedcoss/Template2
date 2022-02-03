@@ -63,3 +63,40 @@ ul{
     transition: all 0.2s ease-in;
     
 }
+/* Main Body */
+#main{
+            
+    overflow: hidden;
+}
+#content{
+    padding: 20px 10px 20px 10px;
+    width: 60%;
+    float: left;
+}
+#sidecontent{
+    padding: 20px 10px 20px 10px;
+    width: 33%;
+    float: right;
+    height: 100vh;
+    background-color: darkgrey;
+    
+}
+p{
+    text-align: justify;
+}
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    #main{
+         overflow: auto;
+     }
+     #content{
+         padding: 20px;
+         width: 90%;
+     }
+     #sidecontent{
+         padding: 20px;
+         width: 90%;
+         background-color: darkgrey;
+         
+     }
+}

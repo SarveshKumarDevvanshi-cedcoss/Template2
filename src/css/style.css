@@ -1,0 +1,65 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#wrapper{
+    margin: 1px;
+}
+/* Header */
+#logo{
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: darkgrey;
+}
+/* Navigation Bar */
+#navbar{
+    overflow: hidden;
+    background-color:#373838;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    /* margin: 5px; */
+    padding: 10px;
+    /* border: 1px solid #fff; */
+}
+#navbar li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#navbar li:hover{
+    background-color: darkgrey;
+}
+.active{
+    background-color: forestgreen;
+}
+/* Navigation DropDown */
+.dropdown {
+     display: inline-block;
+}
+
+.dropdown-content {
+    transform: rotateX(
+270deg
+);
+    position: absolute;
+    background-color: #373838;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content li{
+    float: none !important;
+}
+.dropdown-content a {
+    padding: 12px;
+}
+.dropdown:hover .dropdown-content {
+    transform: rotate(360deg);
+    transition: all 0.2s ease-in;
+    
+}
